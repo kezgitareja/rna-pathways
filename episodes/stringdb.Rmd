@@ -45,7 +45,6 @@ filteredcounts <- read.csv("data/limma-voom_filtered_counts", header = TRUE, sep
 
 ```
 
-*Note: timeouts occurring and not working properly*
 
 ## Interaction networks with `StringDB`
 
@@ -70,12 +69,21 @@ enrichment <- string_db$get_enrichment(top200_mapped$STRING_id)
 head(enrichment)
 
 
-# Optional: visualize one cluster (example: cluster 1)
-cluster1 <- clusters[[1]]
-string_db$plot_network(cluster1)
-
 
 ```
+
+There are many available ways of exploring your data using the STRING database that can't be covered in one tutorial but you can learn more by reading the [vignette](https://www.bioconductor.org/packages/release/bioc/vignettes/STRINGdb/inst/doc/STRINGdb.pdf) and inspect available functions within the `STRINGdb` package by running:
+
+```{r}
+
+STRINGdb$methods()
+
+```
+
+Read more about STRING:
+
+- Szklarczyk, Damian et al. “The STRING database in 2025: protein networks with directionality of regulation.” Nucleic acids research vol. 53,D1 (2025): D730-D737. doi:10.1093/nar/gkae1113
+
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
