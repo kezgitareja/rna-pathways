@@ -2,8 +2,15 @@
 title: Setup
 ---
 
-FIXME: Setup instructions live in this document. Please specify the tools and
-the data sets the Learner needs to have installed.
+This workshop provides a practical introduction to functional enrichment analysis 
+following differential gene expression in RNA-seq studies. We will compare two major
+enrichment strategies, over-representation analysis (ORA) and functional class 
+scoring (FCS), and discuss when each approach is most appropriate. Participants will
+learn how to implement these methods in R using packages including <clusterProfiler>,
+<fgsea>, <Reg-Enrich> and <STRINGdb>, drawing on pathway and gene-set resources 
+such as Gene Ontology, KEGG Pathway Database and Molecular Signatures Database. 
+By the end of this workshop, you will have a clear understanding of how to interpret 
+enriched pathways in RNA-seq data. test test test 123
 
 ## Data Sets
 
